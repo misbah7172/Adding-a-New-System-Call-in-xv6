@@ -2,7 +2,7 @@
 --
 2nd -  entry the function in usys.pl  like this ( entry("trace"); ) 
 --
-// End of user  side change
+End of user  side change <br>
 3rd - add the user function in UPROGS like this ($U/_trace\) with proper line break in Makefile.
 --
 4th -  defiine the system call number like this ( #define SYS_trace  22  ) in syscall.h
@@ -28,5 +28,6 @@
 --
 10th - to get what type of system call is called copy this static uint64 (*syscalls[])(void) = {
   function  and string/word like this [SYS_fork]    "fork",  
-  11th - properly declare  varibale like  this   p->trace_num = 0; 
-  12th -  
+--
+11th - properly declare  varibale like  this   p->trace_num = 0; 
+
